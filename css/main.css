@@ -1,5 +1,6 @@
 body {
-    background-image: linear-gradient(to top right, #0b0c10,  #195297);
+    /*background-image: linear-gradient(to top right, #0b0c10,  #195297);*/
+    background-color: red;
 
     /* gradient fix */
     background-repeat: no-repeat;
