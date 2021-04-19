@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    font-size: 3vw;
 }
 
 body {
@@ -22,6 +23,14 @@ body {
 }
 */
 
+.primaryTitle {
+    font-size: 1rem;
+}
+
+.secondaryTitle {
+    font-size: 0.35rem;
+}
+
 .appDiv {
     width: 60%;
     height: 70%;
@@ -33,11 +42,12 @@ body {
 .input {
     display: inline-block;
     height: 100%;
+    width: 25%;
 }
 
 .inputDiv {
-    font-size: 70px;
-    height: 40%;
+    font-size: 1.5rem;
+    height: 15%;
 }
 
 .inputField {
