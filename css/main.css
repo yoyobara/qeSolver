@@ -23,12 +23,25 @@ body {
 }
 */
 
+header {
+    font-size: 1.3rem;
+    font-style: normal;
+}
+
 .primaryTitle {
-    font-size: 1rem;
+    font-size: 100%;
+    font-weight: normal;
+    margin: 0;
+}
+
+.Qe {
+    font-weight: 850;
+    font-size: 150%;
 }
 
 .secondaryTitle {
-    font-size: 0.35rem;
+    font-size: 35%;
+    margin: 0;
 }
 
 .appDiv {
@@ -45,6 +58,11 @@ body {
     width: 25%;
 }
 
+.input * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .inputDiv {
     font-size: 1.5rem;
     height: 15%;
@@ -52,7 +70,7 @@ body {
 
 .inputField {
     width: 35%;
-    height: 30%;
+    height: 70%;
 }
 
 /* disable these annoying arrows in the fields */
