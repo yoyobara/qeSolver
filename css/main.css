@@ -47,6 +47,9 @@ header {
     height: 70%;
     margin: 0 auto;
     border: 5px solid #66FCF1;
+    border-radius: 15px;
+    border-style: dashed;
+
     text-align: center;
 }
 
