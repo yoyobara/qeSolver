@@ -3,13 +3,6 @@ html {
     font-size: 3vw;
 }
 
-@media only screen and (max-aspect-ratio: 1.161) {
-    body {
-      background-color: rgb(255, 136, 0);
-      background-image: none;
-    }
-  }
-
 body {
     background-image: linear-gradient(to top right, #0b0c10,  #195297);
 
@@ -121,6 +114,21 @@ header {
 .result {
     color: #c5c6c7;
 }
+
+@media only screen and (max-width: 900px) {
+    .appDiv {
+        text-align: center;
+    }
+
+    .inputDiv * {
+        display: block;
+    }
+
+    .inputDiv {
+        height: fit-content;
+        text-align: center;
+    }
+  }
 
 /* disable these annoying arrows in the fields */
 input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { 
