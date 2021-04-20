@@ -7,7 +7,10 @@ var click = () => {
 
     if (a != null && b != null && c != null) {
         let res = solveQe(a, b, c);
-        setX1(res[0].toFixed(4)); setX2(res[1].toFixed(4));
+
+        setX1(rnd(res[0]).toString());
+        setX2(rnd(res[1]).toString());
+
         show_output();
     } else {
         alert("Fill all fields with valid numbers!!");

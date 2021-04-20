@@ -15,3 +15,5 @@ var solveQe = (a, b, c) => {
 
     return res;
 }
+
+var rnd = (num) => parseFloat(num.toFixed(4));
