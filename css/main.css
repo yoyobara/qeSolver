@@ -17,11 +17,9 @@ body {
     height: 100%;
 }
 
-/*
 .hidden {
     visibility: hidden;
 }
-*/
 
 header {
     font-size: 1.3rem;
@@ -66,11 +64,52 @@ header {
 .inputDiv {
     font-size: 1.5rem;
     height: 15%;
+    margin: 2% 0;
 }
 
 .inputField {
     width: 35%;
     height: 70%;
+
+    border: 3px solid #66FCF1;
+    background-color: transparent;
+
+    font-size: 50%;
+    color: #c5c6c7;
+
+}
+
+.inputField:focus {
+    outline-offset: 0.05rem;
+}
+
+#calcButton {
+    mix-blend-mode: screen;
+    background-color: #66FCF1;
+    border-radius: 15px;
+
+    height: 30%;
+    width: 30%;
+    margin: 5% auto;
+
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+#calcButton:focus {
+    outline: none;
+}
+
+#calcButton:hover {
+    background-color: #45a29e;
+}
+
+.smallNumber {
+    font-size: 50%;
+}
+
+.result {
+    color: #c5c6c7;
 }
 
 /* disable these annoying arrows in the fields */

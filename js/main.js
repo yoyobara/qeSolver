@@ -1,5 +1,7 @@
 var solveButton = document.getElementById('calcButton');
 
+screen.orientation.lock('landscape');
+
 var click = () => {
     let a = getA();
     let b = getB();
